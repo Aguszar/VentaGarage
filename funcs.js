@@ -5,12 +5,13 @@ categorias = [herramientas]
 function categoria(nombre, index) {
     productos = document.getElementById("productos")
     productos.innerHTML = ""
-    productos.innerHTML += "<br><h2>"+nombre+"</h2>"
-    for (let index = 0; index < herramientas.length; index++) {
+    productos.innerHTML += "<h2>"+nombre+"</h2>"
+    for (let i = 0; i < herramientas.length; i++) {
         prod = "<div class='producto'>"
-        prod +="<img src='imagenes/herramientas/Soldadora.jpg' alt=''>"
-        prod +="<h3>Precio: $70.000</h3>"
-        prod +="<p>Descripcion del producto</p></div>"
+        prod += "<h3>"+herramientas[i][0]+"</h3>"
+        prod +="<img src='"+herramientas[i][3]+"' alt=''>"
+        prod +="<h4>Precio: "+herramientas[i][1]+"</h4>"
+        prod +="<p>"+herramientas[i][2]+"</p></div>"
         productos.innerHTML += prod
         
     }
