@@ -9,7 +9,7 @@ function categoria(nombre, index) {
     for (let i = 0; i < categorias[index].length; i++) {
         prod = "<div class='producto'>"
         prod += "<h3>"+herramientas[i][0]+"</h3>"
-        prod +="<img src='"+herramientas[i][3]+"' alt=''>"
+        prod +="<img src='"+herramientas[i][3]+"' alt='fallo carga de imagen'>"
         prod +="<h4>Precio: "+herramientas[i][1]+"</h4>"
         prod +="<p>"+herramientas[i][2]+"</p></div>"
         productos.innerHTML += prod
