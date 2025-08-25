@@ -18,15 +18,28 @@ nav span:hover{
     cursor: pointer;
 }
 
-
 .producto{
-    text-align: center;
-    float: left;
-    width: 98%;
-    background-color: rgb(71, 71, 245);
-    margin-left: 5px;
-    margin-bottom: 5px;
+        text-align: center;
+        float: left;
+        width: 24%;
+        background-color: rgb(71, 71, 245);
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+@media screen and (max-width: 600px){
+    .producto{
+        text-align: center;
+        float: left;
+        width: 98%;
+        background-color: rgb(71, 71, 245);
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
 }
+
+
 .producto img{
     width: 98%;
     padding-left: 1%;
