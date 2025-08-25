@@ -5,7 +5,7 @@ categorias = [herramientas]
 function categoria(nombre, index) {
     productos = document.getElementById("productos")
     productos.innerHTML = ""
-    productos.innerHTML += "<h2>"+nombre+"</h2>"
+    productos.innerHTML += "<br><br><br><h2>"+nombre+"</h2>"
     for (let i = 0; i < categorias[index].length; i++) {
         prod = "<div class='producto'>"
         prod += "<h3>"+herramientas[i][0]+"</h3>"
