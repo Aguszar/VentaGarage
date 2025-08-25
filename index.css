@@ -6,7 +6,7 @@ body{
     font-size: large;
 }
 nav span{
-    background: rgb(9, 134, 9);
+    background: rgb(71, 71, 245);
     font-size: 25px;
     padding: 10px;
     margin-top: 10px;
@@ -14,7 +14,7 @@ nav span{
 }
 
 nav span:hover{
-    background: rgb(2, 148, 2);
+    background: rgb(49, 49, 240);
     cursor: pointer;
 }
 
@@ -25,14 +25,15 @@ nav span:hover{
 .producto{
     text-align: center;
     float: left;
-    width: 24%;
+    width: 98%;
     background-color: rgb(71, 71, 245);
     margin-left: 5px;
     margin-bottom: 5px;
 }
 .producto img{
-    width: 90%;
-    padding: 2%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #whats{
