@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venta Garage Zarzur</title>
     <link rel="stylesheet" href="index.css">
+    <script src="herramientas.js"></script>
 </head>
 <body>
     <h1>Venta de Garage Zarzur</h1>
-    <p>Despues de muchos años en Unquillo, Cordoba; como familia nos mudamos a otra localidad y vendemos aquello que no vamos a llevar o necesitar</p>
-    <h2>Herramientas</h2>
-    <h2>Muebles</h2>
-    <h2>Electrodomesticos</h2>
+    <p id="Intro">Despues de muchos años en Unquillo, Cordoba; como familia nos mudamos y
+    vendemos aquello que no vamos a llevar o necesitar.<br>contactar whatsapp 351 863 2685 o presionen el logo de whatsapp
+    </p>
+    <a  href="https://wa.me/+5493518632685" target="_blank"><img id="whats" src="whats.png" alt="logo de whatsapp"></a>
+    
+    <nav>
+       <span onclick="categoria('Herramientas', 0)">Herramientas</span>   
+    </nav>
+    
+    <div id="productos"></div>
+    <div class="producto">
+        <img src="imagenes/herramientas/Soldadora.jpg" alt="">
+        <h3>Precio: $70.000</h3>
+        <p>Descripcion del producto</p>
+    </div>
+
+    <div id="contacto">
+        <img src="whats." alt="">
+    </div>
 
 </body>
 </html>
+<script src="funcs.js"></script>

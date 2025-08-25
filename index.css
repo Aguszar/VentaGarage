@@ -1,4 +1,32 @@
 body{
     background-color: rgb(250, 193, 87);
-    font-style: arial, serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Intro{
+    font-size: large;
+}
+nav span{
+    background: rgb(9, 134, 9);
+    font-size: 25px;
+}
+
+nav span:hover{
+    background: rgb(2, 148, 2);
+    cursor: pointer;
+}
+
+.producto img{
+    width: 20%;
+}
+
+#whats{
+    border-radius: 50%;
+    width: 100px
+}
+
+
+#whats:hover{
+    border-radius: 50%;
+    width: 110px;
+    cursor:pointer;
 }
