@@ -33,16 +33,14 @@ nav span:hover{
     .producto{
         text-align: center;
         float: left;
-        width: 49%;
+        width: 98%;
         background-color: rgb(71, 71, 245);
         margin-left: 1px;
         margin-bottom: 5px;
     }
-
 }
 
 .producto_vendido{
-    
         text-align: center;
         float: left;
         width: 24%;
@@ -55,14 +53,13 @@ nav span:hover{
     .producto_vendido{
         text-align: center;
         float: left;
-        width: 49%;
+        width: 98%;
         background-color: rgb(126, 126, 158);
         margin-left: 5px;
         margin-bottom: 5px;
     }
 
 }
-
 
 .producto img, .producto_vendido img{
     width: 98%;
