@@ -18,6 +18,7 @@ nav span:hover{
     cursor: pointer;
 }
 
+
 .producto{
         text-align: center;
         float: left;
@@ -44,7 +45,6 @@ nav span:hover{
     width: 98%;
     padding-left: 1%;
     padding-right: 1%;
-    max-height: 300px;
 }
 
 #whats{
@@ -52,7 +52,7 @@ nav span:hover{
     right: 15px;
     bottom: 15px;
     border-radius: 50%;
-    width: 100px
+    width: 75px
 }
 
 #whats:hover{
