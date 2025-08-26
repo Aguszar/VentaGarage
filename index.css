@@ -20,6 +20,7 @@ nav span:hover{
 
 
 .producto{
+    
         text-align: center;
         float: left;
         width: 24%;
@@ -32,8 +33,30 @@ nav span:hover{
     .producto{
         text-align: center;
         float: left;
-        width: 98%;
+        width: 49%;
         background-color: rgb(71, 71, 245);
+        margin-left: 1px;
+        margin-bottom: 5px;
+    }
+
+}
+
+.producto_vendido{
+    
+        text-align: center;
+        float: left;
+        width: 24%;
+        background-color: rgb(126, 126, 158);
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+@media screen and (max-width: 600px){
+    .producto_vendido{
+        text-align: center;
+        float: left;
+        width: 49%;
+        background-color: rgb(126, 126, 158);
         margin-left: 5px;
         margin-bottom: 5px;
     }
@@ -41,7 +64,7 @@ nav span:hover{
 }
 
 
-.producto img{
+.producto img, .producto_vendido img{
     width: 98%;
     padding-left: 1%;
     padding-right: 1%;

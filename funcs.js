@@ -9,11 +9,21 @@ function categoria(nombre, index) {
     productos.innerHTML += "<br><br><br><h2>"+nombre+"</h2>"
     cat = categorias[index]
     for (let i = 0; i < cat.length; i++) {
-        prod = "<div class='producto'>"
-        prod += "<h3>"+cat[i][0]+"</h3>"
-        prod +="<img src='imagenes/"+cat[i][3]+"' alt='fallo carga de imagen'>"
-        prod +="<h4>Precio: "+cat[i][1]+"</h4>"
-        prod +="<p>"+cat[i][2]+"</p></div>"
-        productos.innerHTML += prod       
+        if(cat[i][0]){// si fue vendido, tiene un cartel de vendido
+            prod ="<div class='producto_vendido'>"
+        }else{
+            prod = "<div class='producto'>"
+        }
+        
+        prod += "<h3>"+cat[i][1]+"</h3>"
+        prod +="<img src='imagenes/"+cat[i][4]+"' alt='fallo carga de imagen'>"
+        prod +="<h4>Precio: "+cat[i][2]+"</h4>"
+        if(cat[i][0]){// si fue vendido, tiene un cartel de vendido
+            prod +="<p style='color:red; font-weight: bold;'>Vendido</p></div>"            
+        }else{
+            prod +="<p>"+cat[i][3]+"</p></div>"
+        }
+        
+        productos.innerHTML += prod 
     }
 }
