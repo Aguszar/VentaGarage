@@ -12,7 +12,6 @@ function categoria(nombre, index) {
         prod +="<img src='imagenes/"+herramientas[i][3]+"' alt='fallo carga de imagen'>"
         prod +="<h4>Precio: "+herramientas[i][1]+"</h4>"
         prod +="<p>"+herramientas[i][2]+"</p></div>"
-        productos.innerHTML += prod
-        
+        productos.innerHTML += prod       
     }
 }
