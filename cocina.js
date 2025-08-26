@@ -1,7 +1,7 @@
 cocina = [
     [false, "Garrafa", "$70.000", "", "cocina/IMG_20250826_100957481_AE.jpg"],    
     [false, "Bowl Vidrio Decorativo", "$5.000", "24 cm de diametro y 6 cm de alto", "cocina/IMG_20250826_091557636_AE.jpg"],
-    [false, "Bandeja", "$5.000", "bandeja de chapa. 26x15 cm", "cocina/IMG_20250826_091616379_AE.jpg"],
+    [true, "Bandeja", "$5.000", "bandeja de chapa. 26x15 cm", "cocina/IMG_20250826_091616379_AE.jpg"],
     [false, "Platos Ceramica", "$3.000", "Platos hondos blancos de ceramica 22.5 cm diametro", "cocina/IMG_20250826_091700315_AE.jpg"],
     [false, "Platos Vidrio", "$3.000", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
     [false, "Triturador de verdura", "$6.000", "En buen estado", "cocina/IMG_20250826_091832201_AE.jpg"],
@@ -17,7 +17,7 @@ cocina = [
     [false, "Molde Redondo", "$2.000", "23 cm de diametro", "cocina/IMG_20250826_094625919_AE.jpg"],
     [false, "Molde Flan", "$5.000", "26 cm diametro", "cocina/IMG_20250826_095116164_HDR_AE.jpg"],
     [false, "Olla", "$10.000", "", "cocina/IMG_20250826_094650707_HDR_AE.jpg"],
-    [false, "Bandeja Ovalada Acero", "$10.000", "44.5 x 34 cm", "cocina/IMG_20250826_095258432_AE.jpg"],
+    [true, "Bandeja Ovalada Acero", "$10.000", "44.5 x 34 cm", "cocina/IMG_20250826_095258432_AE.jpg"],
     [false, "Molde Desmontable", "$10.000", "25 x 6 cm", "cocina/IMG_20250826_095354597_HDR_AE.jpg"],
     [false, "Bandeja Ovalada", "$5.000", "31 x 21 cm", "cocina/IMG_20250826_095410888_AE.jpg"],
     [false, "Molde Flan", "$5.000", "18 cm diametro mayor, 11.5 cm el diametro menor, 9 cm de alto", "cocina/IMG_20250826_095446213_AE.jpg"],
