@@ -1,6 +1,6 @@
 cocina = [
     [false, "Garrafa", "$70.000", "", "cocina/IMG_20250826_100957481_AE.jpg"],    
-    [false, "Bowl Vidrio", "$5.000", "24 cm de diametro y 6 cm de alto", "cocina/IMG_20250826_091557636_AE.jpg"],
+    [false, "Bowl Vidrio Decorativo", "$5.000", "24 cm de diametro y 6 cm de alto", "cocina/IMG_20250826_091557636_AE.jpg"],
     [false, "Bandeja", "$5.000", "bandeja de chapa. 26x15 cm", "cocina/IMG_20250826_091616379_AE.jpg"],
     [false, "Platos Ceramica", "$3.000", "Platos hondos blancos de ceramica 22.5 cm diametro", "cocina/IMG_20250826_091700315_AE.jpg"],
     [false, "Platos Vidrio", "$3.000", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
