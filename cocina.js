@@ -11,6 +11,7 @@ cocina = [
     [false, "Bandejas horno", "$7.000", "", "cocina/IMG_20250826_093933288_AE.jpg"],
     [false, "Platos vidrio postre", "$2.000", "", "cocina/IMG_20250826_094044725_AE.jpg"],
     [false, "Bowl chicos", "$500", "", "cocina/IMG_20250826_094052342_AE.jpg"],
+    [false, "Budinera","$8.000","","cocina/IMG_20250826_113211186_AE.jpg"],
     [false, "Rayador", "$1.000", "", "cocina/IMG_20250826_094309817_HDR_AE.jpg"],
     [false, "Batidora", "$40.000", "Los 2 bowl incluido", "cocina/IMG_20250826_094350365_AE.jpg"],
     [false, "Molde Redondo", "$2.000", "23 cm de diametro", "cocina/IMG_20250826_094625919_AE.jpg"],
