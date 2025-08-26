@@ -5,5 +5,11 @@ herramientas = [
     [false,"Cepilladora de madera", "$60.000","Marca Gladiator. En excelente estado", "herramientas/IMG_20250805_144558117_HDR_AE.jpg"],
     [false,"Mochila Fumigadora","$25.000", "Está manchada, pero el funcionamiento anda bien", "herramientas/IMG_20250807_081244513_AE.jpg"],
     [false,"Sierra Circular", "$90.000", "Diametro??, marca Skil", "herramientas/IMG_20250805_145251075_AE.jpg"],
-    [false,"Terraja", "$15.000", "lala", ""],
+    [false,"Terraja", "$15.000", "", "herramientas/IMG_20250826_133733992_AE.jpg"],
+    [false, "Remachadora", "$10.000", "", "herramientas/IMG_20250826_133751138_AE.jpg"],
+    [false, "Nivel chica", "$5.000", "", "herramientas/IMG_20250826_133808545_AE.jpg"],
+    [false, "Hacha Grande", "$70.000", "Cabeza de 2.5 kg", "herramientas/IMG_20250826_133703176_AE.jpg"],
+    [false, "Escuadra Combinada", "$5.000", "", "herramientas/IMG_20250826_133847295_AE.jpg"],
+    [false, "Palita + rastrillo de jardineria", "$10.000", "$5.000 cada herramienta", "herramientas/IMG_20250826_133931904_AE.jpg"],
+    [false, "", "", "", ""],
 ]
