@@ -1,12 +1,11 @@
 function producto(nombre, precio, descripcion){
 
 }
-categorias = [herramientas, muebles, bazar]
+categorias = [herramientas, muebles, bazar, cocina]
 
 function categoria(nombre, index) {
     productos = document.getElementById("productos")
     productos.innerHTML = ""
-    productos.innerHTML += "<br><br><br><h2>"+nombre+"</h2>"
     cat = categorias[index]
     for (let i = 0; i < cat.length; i++) {
         if(cat[i][0]){// si fue vendido, tiene un cartel de vendido
