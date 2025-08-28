@@ -1,6 +1,16 @@
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function performTaskWithDelay() {
+  console.log("Task started");
+  await wait(3000); // Wait for 3 seconds
+  console.log("Task resumed after delay");
+}
+
 categorias = [herramientas, muebles, bazar, cocina]
 
-function categoria(nombre, index) {
+async function categoria(nombre, index) {
     productos = document.getElementById("productos")
     productos.innerHTML = ""
     cat = categorias[index]
@@ -26,5 +36,6 @@ function categoria(nombre, index) {
         }
         
         productos.innerHTML += prod 
+        await wait(100);
     }
 }
