@@ -3,8 +3,8 @@ bazar=[
     [3, "Ventilador", "$35.000", "", "bazar/IMG_20250826_121020710_AE.jpg"],
     [0, "Carpa", "$20.000", "Carpa para 2 personas", "bazar/IMG_20250828_110344438_HDR_AE.jpg"],
     [0, "Carpa media sombra", "$5.000", "Le faltan unos caños", "bazar/IMG_20250828_115401282_AE.jpg"],
-    [0, "Mancuerna+pesas", "$60.000", "2 mancuernas + 4 pesas de 1.25 kg + 6 pesas de 2.5 kg + 4 pesas de 5 kg", "bazar/IMG_20250826_135115461_AE.jpg"]
-    [0, "Heladera con freezer", "$110.000", "Funciona excelente", "bazar/IMG_20250828_153329945_AE.jpg"]
+    [0, "Mancuerna+pesas", "$60.000", "2 mancuernas + 4 pesas de 1.25 kg + 6 pesas de 2.5 kg + 4 pesas de 5 kg", "bazar/IMG_20250826_135115461_AE.jpg"],
+    [0, "Heladera con freezer", "$110.000", "Funciona excelente", "bazar/IMG_20250828_153329945_AE.jpg"],
     [0, "Televisor LED 24 PULGADAS", "$50.000", "", "bazar/IMG_20250826_091441940_HDR_AE.jpg"],
     [0, "Maquina para hacer helado", "$15.000", "Heladora Antartida muy buen estado", "bazar/IMG_20250828_132541114_AE.jpg"],
     [0, "Velador Antiguo", "$3.000", "", "bazar/IMG_20250828_132802893_HDR_AE.jpg"],
