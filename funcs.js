@@ -1,6 +1,3 @@
-function producto(nombre, precio, descripcion){
-
-}
 categorias = [herramientas, muebles, bazar, cocina]
 
 function categoria(nombre, index) {

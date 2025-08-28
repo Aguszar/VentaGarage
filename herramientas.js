@@ -1,5 +1,5 @@
 herramientas = [
-    [0, "Soldadora", "$70.000", "Marca Gamma, buen estado", "herramientas/IMG_20250802_112723035_AE.jpg"], 
+    [3, "Soldadora", "$70.000", "Marca Gamma, buen estado", "herramientas/IMG_20250802_112723035_AE.jpg"], 
     [0,"Tubos Crossman", "$80.000", "Muy buenas", "herramientas/tubos.jpg"],
     [0,"Compresor", "$80.000", "Marca Robust, tiene una perdida de aire", "herramientas/IMG_20250807_080620082_AE.jpg"],
     [0,"Cepilladora de madera", "$60.000","Marca Gladiator. En excelente estado", "herramientas/IMG_20250805_144558117_HDR_AE.jpg"],
