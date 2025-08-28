@@ -4,6 +4,7 @@ cocina = [
     [1, "Bandeja", "$5.000", "bandeja de chapa. 26x15 cm", "cocina/IMG_20250826_091616379_AE.jpg"],
     [0, "Platos Ceramica", "$3.000 cada uno", "Platos hondos blancos de ceramica 22.5 cm diametro", "cocina/IMG_20250826_091700315_AE.jpg"],
     [0, "Platos Vidrio", "$3.000 cada uno", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
+    [0, "Heladera con freezer", "$110.000", "Funciona excelente", "cocina/IMG_20250828_153329945_AE.jpg"],
     [0, "Triturador de verdura", "$6.000", "En buen estado", "cocina/IMG_20250826_091832201_AE.jpg"],
     [0, "Sartenes", "$8.000 cada uno", "", "cocina/IMG_20250826_093438024_AE.jpg"],
     [3, "Pava", "$5.000", "Pava antigua en buen estado", "cocina/IMG_20250826_093847477_AE.jpg"],    

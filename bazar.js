@@ -17,5 +17,5 @@ bazar=[
     [0, "Pistola silicona caliente", "$2.000", "en buen estado", "bazar/IMG_20250828_134545457_AE.jpg"],    
     [0, "Plato para Picada", "$3.000", "", "bazar/IMG_20250828_134254850_AE.jpg"],    
     [0, "Bnadejas hieleras", "$1.000 los 2 juntos", "", "bazar/IMG_20250828_132845979_AE.jpg"],    
-    
+    [0, "Heladera con freezer", "$110.000", "Funciona excelente", "bazar/IMG_20250828_153329945_AE.jpg"]
 ]
