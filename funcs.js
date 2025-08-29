@@ -36,6 +36,9 @@ async function categoria(nombre, index) {
         }
         
         productos.innerHTML += prod 
-        await wait(330);
+        await wait(300);
+        if ((i+1)%3==0 ) {
+            await wait(200);    
+        }
     }
 }
