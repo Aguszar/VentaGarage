@@ -24,7 +24,7 @@ async function categoria(nombre, index) {
         }
         
         prod += "<h3>"+cat[i][1]+"</h3>"
-        prod +="<img src='imagenes/"+cat[i][4]+"' alt='fallo carga de imagen'>"
+        prod +="<img src='img_comp/"+cat[i][4]+"' alt='fallo carga de imagen'>"
         prod +="<h4>Precio: "+cat[i][2]+"</h4>"
 
         if(cat[i][0]==1){// si fue vendido, tiene un cartel de vendido
@@ -36,7 +36,7 @@ async function categoria(nombre, index) {
         }
         
         productos.innerHTML += prod 
-        await wait(300);
+        await wait(200);
         if ((i+1)%3==0 ) {
             await wait(200);    
         }
