@@ -19,11 +19,11 @@ cocina = [
     [0, "Molde Flan", "$5.000", "26 cm diametro", "cocina/IMG_20250826_095116164_HDR_AE.jpg"],
     [0, "Olla", "$10.000", "", "cocina/IMG_20250826_094650707_HDR_AE.jpg"],
     [1, "Bandeja Ovalada Acero", "$10.000", "44.5 x 34 cm", "cocina/IMG_20250826_095258432_AE.jpg"],
-    [3, "Pava", "$5.000", "Pava antigua en buen estado", "cocina/IMG_20250826_093847477_AE.jpg"],    
-    [3, "Olla a presion", "$40.000", "", "cocina/IMG_20250826_095540343_AE.jpg"],
-    [3, "Bandeja Ovalada", "$5.000", "31 x 21 cm", "cocina/IMG_20250826_095410888_AE.jpg"],
-    [3, "Ollita Matecocido", "$5.000", "", "cocina/IMG_20250826_095607252_AE.jpg"],
-    [3, "Bowl Vidrio Decorativo", "$5.000", "24 cm de diametro y 6 cm de alto", "cocina/IMG_20250826_091557636_AE.jpg"],
+    [1, "Pava", "$5.000", "Pava antigua en buen estado", "cocina/IMG_20250826_093847477_AE.jpg"],    
+    [1, "Olla a presion", "$40.000", "", "cocina/IMG_20250826_095540343_AE.jpg"],
+    [1, "Bandeja Ovalada", "$5.000", "31 x 21 cm", "cocina/IMG_20250826_095410888_AE.jpg"],
+    [1, "Ollita Matecocido", "$5.000", "", "cocina/IMG_20250826_095607252_AE.jpg"],
+    [1, "Bowl Vidrio Decorativo", "$5.000", "24 cm de diametro y 6 cm de alto", "cocina/IMG_20250826_091557636_AE.jpg"],
     [1, "Bandeja", "$5.000", "bandeja de chapa. 26x15 cm", "cocina/IMG_20250826_091616379_AE.jpg"],
   
 ]

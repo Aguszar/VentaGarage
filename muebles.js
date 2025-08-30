@@ -7,5 +7,4 @@ muebles=[
     [0, "Escritorio de madera", "$20.000", "Medio golpeado pero firme", "muebles/IMG_20250828_085458156_AE.jpg"],
     [0, "Heladera con freezer", "$110.000", "Funciona excelente", "muebles/IMG_20250828_153329945_AE.jpg"],
     [1, "Mesa + 6 sillas", "$150.000", "", "muebles/IMG_20250829_053919820_AE.jpg"],
-    
 ]
