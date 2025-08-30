@@ -19,6 +19,7 @@ herramientas = [
     [0, "Rastrillo Alambre", "$6.000", "", "herramientas/IMG_20250827_115615275_AE.jpg"],
     [0, "Rastrillo", "$8.000", "", "herramientas/IMG_20250827_115628382_AE.jpg"],
     [0, "Nivel Largo", "$3.000", "", "herramientas/IMG_20250827_115819048_AE.jpg"],
+    [0, "Marillo", "$5.000", "", "herramientas/IMG_20250830_092556735_AE.jpg"],
     [0, "Clavadora", "$30.000", "Barato para que se venda", "herramientas/IMG_20250828_131205756_AE.jpg"],
     [0, "Pistola para pintar", "$15.000", "", "herramientas/IMG_20250828_142002966_AE.jpg"],
     [0, "Pistola sopladora con manguera", "$7.000", "", "herramientas/IMG_20250828_131216565_AE.jpg"],

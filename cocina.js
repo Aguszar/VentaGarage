@@ -1,5 +1,6 @@
 cocina = [
     [0, "Garrafa", "$70.000", "", "cocina/IMG_20250826_100957481_AE.jpg"],    
+    [0,"Cocina", "$50.000", "", "muebles/IMG_20250830_091912861_AE.jpg"], 
     [0, "Platos Ceramica", "$3.000 cada uno", "Platos hondos blancos de ceramica 22.5 cm diametro", "cocina/IMG_20250826_091700315_AE.jpg"],
     [0, "Platos Vidrio", "$3.000 cada uno", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
     [0, "Heladera con freezer", "$110.000", "Funciona excelente", "cocina/IMG_20250828_153329945_AE.jpg"],
