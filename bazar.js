@@ -16,9 +16,9 @@ bazar=[
     [0, "Espejo", "$3.000", "Espejito esppejito quien es la mas bonita ?", "bazar/IMG_20250828_132928966_AE.jpg"],
     [0, "Parlantes USB", "$5.000", "", "bazar/IMG_20250828_133209966_AE.jpg"],
     [0, "Joystick para televisor con JUEGOS ARCADE", "$8.000", "Tiene PACMAN, GALAGA, MAPPY, CARRERA DE AUTOS y Xevious", "bazar/IMG_20250828_135137210_AE.jpg"],    
-    [0, "Pistola silicona caliente", "$2.000", "en buen estado", "bazar/IMG_20250828_134545457_AE.jpg"],    
     [0, "Plato para Picada", "$3.000", "", "bazar/IMG_20250828_134254850_AE.jpg"],    
     [0, "Bandejas hieleras", "$1.000 los 2 juntos", "", "bazar/IMG_20250828_132845979_AE.jpg"],    
     [3,"Bicicleta", "$40.000", "Rodado 26", "bazar/IMG_20250802_112603828_AE.jpg"],
+    [1, "Pistola silicona caliente", "$2.000", "en buen estado", "bazar/IMG_20250828_134545457_AE.jpg"],    
     
 ]
