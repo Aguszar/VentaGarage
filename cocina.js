@@ -2,7 +2,7 @@ cocina = [
     [0, "Garrafa", "$70.000", "", "cocina/IMG_20250826_100957481_AE.jpg"],    
     [0,"Cocina", "$50.000", "", "muebles/IMG_20250830_091912861_AE.jpg"], 
     [0, "Platos Ceramica", "$3.000 cada uno", "Platos hondos blancos de ceramica 22.5 cm diametro", "cocina/IMG_20250826_091700315_AE.jpg"],
-    [0, "Platos Vidrio", "$3.000 cada uno", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
+    [3, "Platos Vidrio", "$3.000 cada uno", "23 cm de diametro", "cocina/IMG_20250826_091758311_AE.jpg"],
     [0, "Triturador de verdura", "$6.000", "En buen estado", "cocina/IMG_20250826_091832201_AE.jpg"],
     [0, "Molde Silicona", "$6.000", "", "cocina/IMG_20250826_100923111_AE.jpg"],
     [0, "Sartenes", "$8.000 cada uno", "", "cocina/IMG_20250826_093438024_AE.jpg"],
