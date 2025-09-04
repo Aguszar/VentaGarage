@@ -6,7 +6,7 @@ bazar=[
     [0, "Purificador de Agua PSA Vero Sin Uso + 2 filtros", "$250.000", "Nunca se usó, lo encontré limpiando", "bazar/IMG_20250830_143645221_AE.jpg"],
     [0, "Purificador de Agua Portatil PSA", "$50.000", "Nunca se usó, lo encontré limpiando. Ideal para acampar", "bazar/IMG_20250830_143711803_AE.jpg"],
     [0, "Combo ambos purificadores", "$275.000", "", "bazar/IMG_20250830_143859786_AE.jpg"],
-    [0, "Televisor LED 24 PULGADAS", "$40.000", "", "bazar/IMG_20250826_091441940_HDR_AE.jpg"],
+    [0, "Monitor LED 24 PULGADAS", "$35.000", "", "bazar/IMG_20250826_091441940_HDR_AE.jpg"],
     [0, "Maquina para hacer helado", "$15.000", "Heladora Antartida muy buen estado", "bazar/IMG_20250828_132541114_AE.jpg"],
     [0, "Velador Antiguo", "$3.000", "", "bazar/IMG_20250828_132802893_HDR_AE.jpg"],
     [0, "Velador con agarre", "$3.000", "", "bazar/IMG_20250828_141852651_HDR_AE.jpg"],
