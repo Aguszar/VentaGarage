@@ -3,7 +3,7 @@ muebles=[
     [0, "Lavaropas 12 kg LG", "250.000", "SE ESCUCHAN OFERTAS", "bazar/IMG_20250911_103545881_AE.jpg"],
     [0, "Colchones", "$20.000", "cada uno, me quedan 3", "muebles/IMG_20250826_120758236_AE.jpg"],
     [0, "Camas", "$20.000 cada uno", "tiene todos los tornillos", "muebles/IMG_20250826_120758236_AE.jpg"],
-    [0, "Alacena", "$90.000", "En muy lindo estado, 1 metro de ancho", "muebles/IMG_20250828_153234686_HDR_AE.jpg"],
+    //[0, "Alacena", "$90.000", "En muy lindo estado, 1 metro de ancho", "muebles/IMG_20250828_153234686_HDR_AE.jpg"],
     [0, "Escritorio", "$20.000", "Medio golpeado pero firme", "muebles/IMG_20250828_085458156_AE.jpg"],
     [0, "Escritorio", "$20.000", "Medio golpeado pero firme", "muebles/IMG_20250830_151609663_AE.jpg"],
     [3,"Cocina", "$50.000", "", "muebles/IMG_20250830_091912861_AE.jpg"],
