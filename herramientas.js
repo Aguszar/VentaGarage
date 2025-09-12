@@ -2,6 +2,7 @@ herramientas = [
     [0,"Tubos Crossman", "$80.000", "Muy buenas", "herramientas/tubos.jpg"],
     [0,"Compresor", "$80.000", "Marca Robust, tiene una perdida de aire", "herramientas/IMG_20250807_080620082_AE.jpg"],
     [0,"Mochila Fumigadora 30 litro","$25.000", "Está manchada, pero el funcionamiento anda bien", "herramientas/IMG_20250807_081244513_AE.jpg"],
+    [0, "Taladro Stanley", "$25.000", "en buen estado, viene con algunas puntas", "herramientas/"]
     [0,"Sierra Circular", "$60.000", "18 cm de diametro , marca Skil", "herramientas/IMG_20250805_145251075_AE.jpg"],
     [0, "Hacha Grande", "$50.000", "Cabeza de 2.5 kg", "herramientas/IMG_20250826_133703176_AE.jpg"],
     [0, "Palita + rastrillo de jardineria", "$6.000", "$3.000 cada herramienta", "herramientas/IMG_20250826_133931904_AE.jpg"],

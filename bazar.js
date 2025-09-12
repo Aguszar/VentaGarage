@@ -1,4 +1,6 @@
 bazar=[
+    [0, "Bicicleta rodado 26", "140.000", "Esta impecable", "bazar/IMG_20250901_162916951_AE.jpg"],
+    [0, "Lavaropas 12 kg LG", "250.000", "SE ESCUCHAN OFERTAS", "bazar/IMG_20250911_103545881_AE.jpg"],
     [0,"Bidon Termico", "$10.000", "Bidon termico de 5 litros marca obba", "bazar/IMG_20250826_094443066_AE.jpg"],
     [0, "Carpa", "$20.000", "Carpa para 2 personas", "bazar/IMG_20250828_110344438_HDR_AE.jpg"],
     [0, "Carpa media sombra", "$5.000", "Le faltan unos caños", "bazar/IMG_20250828_115401282_AE.jpg"],

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Números de Sorteo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .form-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #2980b9;
+        }
+        
+        .numbers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .number-item {
+            background: #ecf0f1;
+            padding: 15px 10px;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+            position: relative;
+        }
+        
+        .number-item.sold {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .number-info {
+            font-size: 12px;
+            display: block;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        
+        .summary {
+            background: #2ecc71;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .numbers-grid {
+                grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Registro de Números de Sorteo</h1>
+            <p class="description">Sistema para registrar los números vendidos en tu sorteo</p>
+        </header>
+        
+        <div class="form-container">
+            <h2>Registrar Nueva Venta</h2>
+            <form id="sale-form">
+                <div class="form-group">
+                    <label for="number">Número:</label>
+                    <input type="number" id="number" min="1" required placeholder="Ingresa el número vendido">
+                </div>
+                
+                <div class="form-group">
+                    <label for="buyer">Comprador:</label>
+                    <input type="text" id="buyer" required placeholder="Nombre del comprador">
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact">Contacto (opcional):</label>
+                    <input type="text" id="contact" placeholder="Teléfono o email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="price">Precio pagado:</label>
+                    <input type="number" id="price" min="0" step="0.01" required placeholder="Ej: 5.00">
+                </div>
+                
+                <button type="submit">Registrar Venta</button>
+            </form>
+        </div>
+        
+        <h2>Números Vendidos</h2>
+        <div class="numbers-grid" id="numbers-grid">
+            <!-- Los números vendidos aparecerán aquí -->
+        </div>
+        
+        <h2>Lista Detallada</h2>
+        <table id="sales-table">
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Comprador</th>
+                    <th>Contacto</th>
+                    <th>Precio</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Las ventas registradas aparecerán aquí -->
+            </tbody>
+        </table>
+        
+        <div class="summary" id="summary">
+            Total recaudado: $0.00
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const saleForm = document.getElementById('sale-form');
+            const salesTable = document.getElementById('sales-table').getElementsByTagName('tbody')[0];
+            const numbersGrid = document.getElementById('numbers-grid');
+            const summaryElement = document.getElementById('summary');
+            
+            // Cargar ventas desde localStorage
+            let sales = JSON.parse(localStorage.getItem('sorteoSales')) || [];
+            
+            // Función para actualizar la interfaz
+            function updateUI() {
+                // Limpiar tablas y grid
+                salesTable.innerHTML = '';
+                numbersGrid.innerHTML = '';
+                
+                let total = 0;
+                
+                // Mostrar ventas en la tabla
+                sales.forEach((sale, index) => {
+                    const row = salesTable.insertRow();
+                    row.innerHTML = `
+                        <td>${sale.number}</td>
+                        <td>${sale.buyer}</td>
+                        <td>${sale.contact || '-'}</td>
+                        <td>$${parseFloat(sale.price).toFixed(2)}</td>
+                        <td><button onclick="removeSale(${index})">Eliminar</button></td>
+                    `;
+                    
+                    total += parseFloat(sale.price);
+                });
+                
+                // Actualizar el resumen
+                summaryElement.textContent = `Total recaudado: $${total.toFixed(2)}`;
+                
+                // Generar grid de números (asumiendo números del 1 al 100)
+                for (let i = 1; i <= 100; i++) {
+                    const numberItem = document.createElement('div');
+                    numberItem.className = 'number-item';
+                    numberItem.textContent = i;
+                    
+                    // Verificar si el número está vendido
+                    const sold = sales.find(sale => parseInt(sale.number) === i);
+                    if (sold) {
+                        numberItem.classList.add('sold');
+                        numberItem.innerHTML = `
+                            ${i}
+                            <span class="number-info">${sold.buyer}</span>
+                        `;
+                    }
+                    
+                    numbersGrid.appendChild(numberItem);
+                }
+            }
+            
+            // Función para registrar una nueva venta
+            saleForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const number = document.getElementById('number').value;
+                const buyer = document.getElementById('buyer').value;
+                const contact = document.getElementById('contact').value;
+                const price = document.getElementById('price').value;
+                
+                // Verificar si el número ya está vendido
+                if (sales.some(sale => sale.number == number)) {
+                    alert('Este número ya ha sido vendido.');
+                    return;
+                }
+                
+                // Agregar la nueva venta
+                sales.push({
+                    number,
+                    buyer,
+                    contact,
+                    price
+                });
+                
+                // Guardar en localStorage
+                localStorage.setItem('sorteoSales', JSON.stringify(sales));
+                
+                // Actualizar la interfaz
+                updateUI();
+                
+                // Limpiar el formulario
+                saleForm.reset();
+            });
+            
+            // Función para eliminar una venta (se llama desde el botón)
+            window.removeSale = function(index) {
+                if (confirm('¿Estás seguro de que quieres eliminar esta venta?')) {
+                    sales.splice(index, 1);
+                    localStorage.setItem('sorteoSales', JSON.stringify(sales));
+                    updateUI();
+                }
+            };
+            
+            // Inicializar la interfaz
+            updateUI();
+        });
+    </script>
+</body>
+</html>
