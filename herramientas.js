@@ -1,5 +1,4 @@
 herramientas = [
-    [0,"Tubos Crossman", "$80.000", "Muy buenas", "herramientas/tubos.jpg"],
     [0,"Compresor", "$80.000", "Marca Robust, tiene una perdida de aire", "herramientas/IMG_20250807_080620082_AE.jpg"],
     [0,"Mochila Fumigadora 30 litro","$25.000", "Está manchada, pero el funcionamiento anda bien", "herramientas/IMG_20250807_081244513_AE.jpg"],
     [0, "Taladro Stanley", "$25.000", "en buen estado, viene con algunas puntas", "herramientas/IMG_20250912_102205475_AE.jpg"],
@@ -24,6 +23,7 @@ herramientas = [
     [0, "Alicates", "$5.000 cada una", "", "herramientas/IMG_20250828_134554528_AE.jpg"],
     [0, "Soldadora de Estaño", "$5.000", "", "herramientas/IMG_20250828_134719360_AE.jpg"],
     [0, "Destronilladores Finos Electronica", "$500 cada uno", "", "herramientas/IMG_20250828_134814231_AE.jpg"],
+    [1,"Tubos Crossman", "$80.000", "Muy buenas", "herramientas/tubos.jpg"],
     [1, "Espatulas", "el conjunto por $10.000", "", "herramientas/IMG_20250826_134047981_AE.jpg"],
     [1, "Nivel 40 cm", "$3.000", "", "herramientas/IMG_20250827_115819048_AE.jpg"],
     [1, "Soporte Lupa soldadora estaño con pinzas", "$12.000", "", "herramientas/IMG_20250828_134443132_AE.jpg"],
